@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+  
+        <header>
+            <a href="#" class = "logo">
+                <img src="images/007logo33.png" alt="007">
+            </a>
+            <ul class ="navbar">
+                <li><a href="homepage2.html">Home</a></li>
+                <li><a href="Available.html">Properties</a></li>
+                <li><a href="CONTACT2.0.html">Contact</a></li>
+                <li><a href="MapCredit.html">Credit</a></li>
+            </ul>  
+            <div class="h-btn">
+           
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        
+        </header>
+       
+    <section class="property">
+        <div class="center-left">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        </div>
+        <h2 >Contact Form</h2>
+        <form id="contactForm">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required>
+      
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+      
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="propertyType">Type of Property:</label>
+          <select id="propertyType" name="propertyType" required>
+            <option value="">Select...</option>
+            <option value="house">House</option>
+            <option value="condo">Condominium</option>
+          </select>
+      
+          <label for="bedrooms">Number of Bedrooms:</label>
+          <input type="number" id="bedrooms" name="bedrooms" required>
+      
+          <label for="bathrooms">Number of Bathrooms:</label>
+          <input type="number" id="bathrooms" name="bathrooms" required>
+      
+          <label for="priceRange">Price Range:</label>
+          <input type="text" id="priceRange" name="priceRange" required>
+      
+          <label for="comments">Additional Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+        <script src="js/contactform.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
