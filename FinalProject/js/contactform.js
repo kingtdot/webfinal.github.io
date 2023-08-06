@@ -7,8 +7,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   });
 
   function validateForm() {
-    // Add your form validation logic here.
-    // For simplicity, let's assume all fields are required.
+    
     const formElements = document.querySelectorAll('#contactForm [required]');
     let isValid = true;
     formElements.forEach(function (element) {
